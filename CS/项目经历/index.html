@@ -559,6 +559,99 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.扩展与插件
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.扩展与插件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 主题配置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-extra-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 Extra CSS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 markdown扩展
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-extra-javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.4 Extra JavaScript
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.5 插件
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.注意事项
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.注意事项">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-serve" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1 serve
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2 更新目录
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1014,6 +1107,99 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.扩展与插件
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.扩展与插件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 主题配置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-extra-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 Extra CSS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 markdown扩展
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-extra-javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.4 Extra JavaScript
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.5 插件
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.注意事项
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.注意事项">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-serve" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1 serve
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2 更新目录
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1079,16 +1265,237 @@
 <img alt="alt text" src="../picture/222.png" />    </p>
 <p><img alt="alt text" src="../picture/333.png" />   </p>
 <h3 id="34">3.4 更改主题（美化界面）<a class="headerlink" href="#34" title="Permanent link">&para;</a></h3>
-<p>我选择使用第三方主题，配置一个material主题 <br />
+<p>我选择使用一个material主题 <br />
 首先利用<code>pip</code>下载相应主题 <br />
     pip install mkdocs-material <br />
 然后在配置文件中添加主题： <br />
     theme: <br />
       name:material   </p>
-<p>重启站点，就得到了一个新的主题    </p>
+<p>重启站点，就得到了一个新的主题（下面第六点详细叙述）    </p>
 <h2 id="4">4.部署站点<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
 <p><code>mkdocs build</code>&rarr;在MYPROJECT目录下生成一个目录site，（和docs并列）这个目录中包含了静态站点的页面内容。   </p>
-<p>接下来切换到GitHub上，创建一个仓库   </p>
+<p>接下来切换到GitHub上，创建了一个仓库note <br />
+<img alt="alt text" src="../picture/github%E4%BB%93%E5%BA%93.png" /> <br />
+在MYPROJECT下打开git，并将当前目录设置为一个仓库，然后与在GitHub上的仓库note<strong>连接</strong>：   </p>
+<div class="language-text highlight"><span class="filename">Text Only</span><pre><span></span><code><span class="linenos" data-linenos="1 "></span>git init
+<span class="linenos" data-linenos="2 "></span>git remote add origin https://github.com/liaory1220/note.git
+</code></pre></div>
+<p><code>mkdocs gh-deploy</code> 将当前目录中site目录下的内容推送到远程  </p>
+<p>以上内容目前还不是很能理解，感谢学长出手相助   </p>
+<blockquote>
+<p><strong>然后！！就是见证奇迹的时刻啦！！</strong>   </p>
+</blockquote>
+<p>浏览器访问 <a href="http://liaory1220.github.io/note">http://liaory1220.github.io/note</a> <br />
+所有人都能访问到这个网页啦！！</p>
+<p>（关于为什么域名中有github.io: 因为站点托管在GitHub上）   </p>
+<h2 id="5">5.扩展与插件<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<p><strong>PS：以下部分均由学长提供，目前正在努力学习中</strong>    </p>
+<div class="language-text highlight"><span class="filename">Text Only</span><pre><span></span><code><span class="linenos" data-linenos="  1 "></span>    site_name: My Docs
+<span class="linenos" data-linenos="  2 "></span>    nav:
+<span class="linenos" data-linenos="  3 "></span>    - home: index.md
+<span class="linenos" data-linenos="  4 "></span>    - CS:
+<span class="linenos" data-linenos="  5 "></span>        - 项目经历: CS\项目经历.md
+<span class="linenos" data-linenos="  6 "></span>        - 面向对象编程: CS\OOP.md  
+<span class="linenos" data-linenos="  7 "></span>        - 计算机基础: CS\计算机基础.md
+<span class="linenos" data-linenos="  8 "></span>        - C语言: CS\C.md  
+<span class="linenos" data-linenos="  9 "></span>        - 软件工程相关: CS\软件工程相关.md
+<span class="linenos" data-linenos=" 10 "></span>    - 待办:
+<span class="linenos" data-linenos=" 11 "></span>        - homework to do: 待办\work to do.md 
+<span class="linenos" data-linenos=" 12 "></span>        - 学辅工作: 待办\学辅.md
+<span class="linenos" data-linenos=" 13 "></span>    - my life: 
+<span class="linenos" data-linenos=" 14 "></span>        - 鸡汤: my life\鸡汤.md 
+<span class="linenos" data-linenos=" 15 "></span>        - 日记: my life\日记.md
+<span class="linenos" data-linenos=" 16 "></span>        - 航空航天: my life\航空航天.md
+<span class="linenos" data-linenos=" 17 "></span>
+<span class="linenos" data-linenos=" 18 "></span>    theme:
+<span class="linenos" data-linenos=" 19 "></span>    name: material
+<span class="linenos" data-linenos=" 20 "></span>    features:
+<span class="linenos" data-linenos=" 21 "></span>        - navigation.tabs
+<span class="linenos" data-linenos=" 22 "></span>        - navigation.tracking # 地址栏中的 URL 会随当前位置变化为对应小节的 URL
+<span class="linenos" data-linenos=" 23 "></span>        - navigation.indexes # 将 index 页面直接附到小节名上
+<span class="linenos" data-linenos=" 24 "></span>        - navigation.top # 回到顶部按钮
+<span class="linenos" data-linenos=" 25 "></span>        - toc.follow # toc 跟随
+<span class="linenos" data-linenos=" 26 "></span>        #- navigation.sections
+<span class="linenos" data-linenos=" 27 "></span>    palette:
+<span class="linenos" data-linenos=" 28 "></span>        # 切换到亮色
+<span class="linenos" data-linenos=" 29 "></span>        - media: &quot;(prefers-color-scheme: light)&quot; # 根据系统的颜色模式自动切换
+<span class="linenos" data-linenos=" 30 "></span>        scheme: default
+<span class="linenos" data-linenos=" 31 "></span>        primary: blue grey
+<span class="linenos" data-linenos=" 32 "></span>        accent: blue grey
+<span class="linenos" data-linenos=" 33 "></span>        toggle:
+<span class="linenos" data-linenos=" 34 "></span>            icon: material/weather-night
+<span class="linenos" data-linenos=" 35 "></span>            name: 切换到暗色模式
+<span class="linenos" data-linenos=" 36 "></span>
+<span class="linenos" data-linenos=" 37 "></span>        # 切换到暗色
+<span class="linenos" data-linenos=" 38 "></span>        - media: &quot;(prefers-color-scheme: dark)&quot;
+<span class="linenos" data-linenos=" 39 "></span>        scheme: slate
+<span class="linenos" data-linenos=" 40 "></span>        primary: blue grey
+<span class="linenos" data-linenos=" 41 "></span>        accent: blue grey
+<span class="linenos" data-linenos=" 42 "></span>        toggle:
+<span class="linenos" data-linenos=" 43 "></span>            icon: material/weather-sunny
+<span class="linenos" data-linenos=" 44 "></span>            name: 切换到亮色模式
+<span class="linenos" data-linenos=" 45 "></span>    extra_css:
+<span class="linenos" data-linenos=" 46 "></span>    - custom.css
+<span class="linenos" data-linenos=" 47 "></span>    - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+<span class="linenos" data-linenos=" 48 "></span>
+<span class="linenos" data-linenos=" 49 "></span>
+<span class="linenos" data-linenos=" 50 "></span>
+<span class="linenos" data-linenos=" 51 "></span>    markdown_extensions:
+<span class="linenos" data-linenos=" 52 "></span>    - admonition # 警告语法
+<span class="linenos" data-linenos=" 53 "></span>    - def_list
+<span class="linenos" data-linenos=" 54 "></span>    - attr_list
+<span class="linenos" data-linenos=" 55 "></span>    - footnotes
+<span class="linenos" data-linenos=" 56 "></span>    - abbr
+<span class="linenos" data-linenos=" 57 "></span>    - tables
+<span class="linenos" data-linenos=" 58 "></span>    - meta
+<span class="linenos" data-linenos=" 59 "></span>    - md_in_html
+<span class="linenos" data-linenos=" 60 "></span>    - pymdownx.caret
+<span class="linenos" data-linenos=" 61 "></span>    - pymdownx.critic
+<span class="linenos" data-linenos=" 62 "></span>    - pymdownx.details
+<span class="linenos" data-linenos=" 63 "></span>    - pymdownx.mark
+<span class="linenos" data-linenos=" 64 "></span>    - pymdownx.tilde
+<span class="linenos" data-linenos=" 65 "></span>    - md_in_html
+<span class="linenos" data-linenos=" 66 "></span>    - pymdownx.superfences
+<span class="linenos" data-linenos=" 67 "></span>    - pymdownx.inlinehilite
+<span class="linenos" data-linenos=" 68 "></span>    - pymdownx.keys
+<span class="linenos" data-linenos=" 69 "></span>    - pymdownx.smartsymbols
+<span class="linenos" data-linenos=" 70 "></span>    - pymdownx.tilde
+<span class="linenos" data-linenos=" 71 "></span>    - pymdownx.tasklist:
+<span class="linenos" data-linenos=" 72 "></span>        custom_checkbox: true
+<span class="linenos" data-linenos=" 73 "></span>    - pymdownx.snippets: # 允许将其他文件内容插入文件，语法是 --8&lt;-- &quot;filename.ext&quot; 等，参见 https://facelessuser.github.io/pymdown-extensions/extensions/snippets/#snippets-notation 
+<span class="linenos" data-linenos=" 74 "></span>        auto_append:
+<span class="linenos" data-linenos=" 75 "></span>            - includes/abbreviations.md
+<span class="linenos" data-linenos=" 76 "></span>        base_path: [&quot;docs&quot;]
+<span class="linenos" data-linenos=" 77 "></span>    - pymdownx.tabbed:
+<span class="linenos" data-linenos=" 78 "></span>        alternate_style: true
+<span class="linenos" data-linenos=" 79 "></span>
+<span class="linenos" data-linenos=" 80 "></span>    - pymdownx.magiclink:
+<span class="linenos" data-linenos=" 81 "></span>        repo_url_shorthand: true
+<span class="linenos" data-linenos=" 82 "></span>        user: squidfunk
+<span class="linenos" data-linenos=" 83 "></span>        repo: mkdocs-material
+<span class="linenos" data-linenos=" 84 "></span>    - pymdownx.arithmatex: # latex支持
+<span class="linenos" data-linenos=" 85 "></span>            generic: true
+<span class="linenos" data-linenos=" 86 "></span>    - toc:
+<span class="linenos" data-linenos=" 87 "></span>            permalink: true # 固定标题位置为当前位置
+<span class="linenos" data-linenos=" 88 "></span>            toc_depth: 3 # 目录深度
+<span class="linenos" data-linenos=" 89 "></span>    #- codehilite
+<span class="linenos" data-linenos=" 90 "></span>    - pymdownx.emoji:
+<span class="linenos" data-linenos=" 91 "></span>        emoji_index: !!python/name:materialx.emoji.twemoji
+<span class="linenos" data-linenos=" 92 "></span>        emoji_generator: !!python/name:materialx.emoji.to_svg
+<span class="linenos" data-linenos=" 93 "></span>    - pymdownx.highlight: # 代码块高亮
+<span class="linenos" data-linenos=" 94 "></span>        anchor_linenums: true
+<span class="linenos" data-linenos=" 95 "></span>        linenums: true # 显示行号
+<span class="linenos" data-linenos=" 96 "></span>        use_pygments: true # 代码高亮
+<span class="linenos" data-linenos=" 97 "></span>        pygments_lang_class: true
+<span class="linenos" data-linenos=" 98 "></span>        auto_title: true # 显示编程语言名称
+<span class="linenos" data-linenos=" 99 "></span>        linenums_style: pymdownx-inline # 行号样式,防止复制的时候复制行号
+<span class="linenos" data-linenos="100 "></span>
+<span class="linenos" data-linenos="101 "></span>
+<span class="linenos" data-linenos="102 "></span>
+<span class="linenos" data-linenos="103 "></span>    extra_javascript:
+<span class="linenos" data-linenos="104 "></span>    - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js
+<span class="linenos" data-linenos="105 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.17.1/flowchart.min.js
+<span class="linenos" data-linenos="106 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js
+<span class="linenos" data-linenos="107 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-min.js
+<span class="linenos" data-linenos="108 "></span>    - https://cdn.jsdelivr.net/npm/@mermaid-js/mermaid-mindmap@9.3.0/dist/diagram-definition.0faef4c2.min.js
+<span class="linenos" data-linenos="109 "></span>    - https://cdn.jsdelivr.net/npm/markdown-it-plantuml@1.4.1/index.min.js
+<span class="linenos" data-linenos="110 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js
+<span class="linenos" data-linenos="111 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+<span class="linenos" data-linenos="112 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml.js
+<span class="linenos" data-linenos="113 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml-full.js
+<span class="linenos" data-linenos="114 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-svg-full.js
+<span class="linenos" data-linenos="115 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js
+<span class="linenos" data-linenos="116 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js
+<span class="linenos" data-linenos="117 "></span>    - https://polyfill.io/v3/polyfill.min.js?features=es6
+<span class="linenos" data-linenos="118 "></span>
+<span class="linenos" data-linenos="119 "></span>    plugins:
+<span class="linenos" data-linenos="120 "></span>    - search
+<span class="linenos" data-linenos="121 "></span>    #- git-revision-date-localized:
+<span class="linenos" data-linenos="122 "></span>    #    enable_creation_date: true
+<span class="linenos" data-linenos="123 "></span>    #    type: timeago
+<span class="linenos" data-linenos="124 "></span>    #    fallback_to_build_date: true
+<span class="linenos" data-linenos="125 "></span>    #- statistics
+<span class="linenos" data-linenos="126 "></span>    #- termynal:
+<span class="linenos" data-linenos="127 "></span>    #   title: &quot;&quot;
+<span class="linenos" data-linenos="128 "></span>        #  buttons: macos
+<span class="linenos" data-linenos="129 "></span>        # prompt_literal_start:
+<span class="linenos" data-linenos="130 "></span>        # - &quot;$&quot;
+<span class="linenos" data-linenos="131 "></span>        # - &quot;&gt;&quot;
+<span class="linenos" data-linenos="132 "></span>        # - &quot;%&quot;
+</code></pre></div>
+<h3 id="51">5.1 主题配置<a class="headerlink" href="#51" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><span class="filename">Text Only</span><pre><span></span><code><span class="linenos" data-linenos="1 "></span>    theme:
+<span class="linenos" data-linenos="2 "></span>    name: material
+<span class="linenos" data-linenos="3 "></span>    features:
+<span class="linenos" data-linenos="4 "></span>        - navigation.tabs
+<span class="linenos" data-linenos="5 "></span>        - navigation.tracking # 地址栏中的 URL 会随当前位置变化为对应小节的 URL
+<span class="linenos" data-linenos="6 "></span>        - navigation.indexes # 将 index 页面直接附到小节名上
+<span class="linenos" data-linenos="7 "></span>        - navigation.top # 回到顶部按钮
+<span class="linenos" data-linenos="8 "></span>        - toc.follow # toc 跟随
+<span class="linenos" data-linenos="9 "></span>        #- navigation.sections
+</code></pre></div>
+<h3 id="52-extra-css">5.2 Extra CSS<a class="headerlink" href="#52-extra-css" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><span class="filename">Text Only</span><pre><span></span><code><span class="linenos" data-linenos="1 "></span>    extra_css:
+<span class="linenos" data-linenos="2 "></span>    - custom.css
+<span class="linenos" data-linenos="3 "></span>    - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+</code></pre></div>
+<p>这部分指定了两个额外的 CSS 文件，一个是本地的 custom.css，另一个是从 CDN 加载的 lxgw-wenkai-webfont 字体库。    </p>
+<h3 id="53-markdown">5.3 markdown扩展<a class="headerlink" href="#53-markdown" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><span class="filename">Text Only</span><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span>    markdown_extensions:
+<span class="linenos" data-linenos=" 2 "></span>    - admonition
+<span class="linenos" data-linenos=" 3 "></span>    - def_list
+<span class="linenos" data-linenos=" 4 "></span>    - footnotes
+<span class="linenos" data-linenos=" 5 "></span>    - abbr
+<span class="linenos" data-linenos=" 6 "></span>    - tables
+<span class="linenos" data-linenos=" 7 "></span>    - meta
+<span class="linenos" data-linenos=" 8 "></span>    - md_in_html
+<span class="linenos" data-linenos=" 9 "></span>    - pymdownx.caret
+<span class="linenos" data-linenos="10 "></span>    - pymdownx.critic
+<span class="linenos" data-linenos="11 "></span>    - pymdownx.details
+<span class="linenos" data-linenos="12 "></span>    - pymdownx.mark
+<span class="linenos" data-linenos="13 "></span>    - pymdownx.tilde
+<span class="linenos" data-linenos="14 "></span>    - md_in_html
+<span class="linenos" data-linenos="15 "></span>    - pymdownx.superfences
+<span class="linenos" data-linenos="16 "></span>    - pymdownx.inlinehilite
+<span class="linenos" data-linenos="17 "></span>    - pymdownx.keys
+<span class="linenos" data-linenos="18 "></span>    - pymdownx.smartsymbols
+<span class="linenos" data-linenos="19 "></span>    - pymdownx.tilde
+<span class="linenos" data-linenos="20 "></span>    - pymdownx.tasklist
+<span class="linenos" data-linenos="21 "></span>    - pymdownx.snippets
+<span class="linenos" data-linenos="22 "></span>    - pymdownx.tabbed
+<span class="linenos" data-linenos="23 "></span>    - pymdownx.magiclink
+<span class="linenos" data-linenos="24 "></span>    - pymdownx.arithmatex
+<span class="linenos" data-linenos="25 "></span>    - toc:
+<span class="linenos" data-linenos="26 "></span>        permalink: true
+<span class="linenos" data-linenos="27 "></span>        toc_depth: 3
+<span class="linenos" data-linenos="28 "></span>    - pymdownx.emoji
+<span class="linenos" data-linenos="29 "></span>    - pymdownx.highlight
+</code></pre></div>
+<p>这部分定义了许多 Markdown 扩展（由第三方库提供，增强 Markdown 的基本语法），包括警告框、定义列表、脚注、缩写、表格、元数据、HTML 内嵌、特殊标记、任务列表、代码高亮等。    </p>
+<h3 id="54-extra-javascript">5.4 Extra JavaScript<a class="headerlink" href="#54-extra-javascript" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><span class="filename">Text Only</span><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span>    extra_javascript:
+<span class="linenos" data-linenos=" 2 "></span>    - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js
+<span class="linenos" data-linenos=" 3 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.17.1/flowchart.min.js
+<span class="linenos" data-linenos=" 4 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js
+<span class="linenos" data-linenos=" 5 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-min.js
+<span class="linenos" data-linenos=" 6 "></span>    - https://cdn.jsdelivr.net/npm/@mermaid-js/mermaid-mindmap@9.3.0/dist/diagram-definition.0faef4c2.min.js
+<span class="linenos" data-linenos=" 7 "></span>    - https://cdn.jsdelivr.net/npm/markdown-it-plantuml@1.4.1/index.min.js
+<span class="linenos" data-linenos=" 8 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js
+<span class="linenos" data-linenos=" 9 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+<span class="linenos" data-linenos="10 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml.js
+<span class="linenos" data-linenos="11 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml-full.js
+<span class="linenos" data-linenos="12 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-svg-full.js
+<span class="linenos" data-linenos="13 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js
+<span class="linenos" data-linenos="14 "></span>    - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js
+<span class="linenos" data-linenos="15 "></span>    - https://polyfill.io/v3/polyfill.min.js?features=es6
+</code></pre></div>
+<p>这部分加载了许多 JavaScript 库，包括 Mermaid（用于绘制图表）、Flowchart（用于绘制流程图）、MathJax（用于渲染数学公式）和 KaTeX（用于渲染数学公式）。此外，还有 WebFontLoader（用于加载自定义字体），以及 polyfill（用于兼容性处理）。</p>
+<h3 id="55">5.5 插件<a class="headerlink" href="#55" title="Permanent link">&para;</a></h3>
+<h2 id="6">6.注意事项<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<h3 id="61-serve">6.1 serve<a class="headerlink" href="#61-serve" title="Permanent link">&para;</a></h3>
+<p>每次清空工作台后，更新内容需要重新命令<code>mkdocs serve</code>   </p>
+<h3 id="62">6.2 更新目录<a class="headerlink" href="#62" title="Permanent link">&para;</a></h3>
+<p>在新建文件后不要忘记把文件路径添加到配置文件里~</p>
 
 
 
