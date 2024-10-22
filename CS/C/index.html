@@ -266,6 +266,26 @@
     
     
       <li class="md-tabs__item">
+        <a href="../../%E9%80%9A%E8%AF%86/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/" class="md-tabs__link">
+          
+  
+    
+  
+  通识
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
         <a href="../../my%20life/%E9%B8%A1%E6%B1%A4/" class="md-tabs__link">
           
   
@@ -670,10 +690,6 @@
       
         
       
-        
-      
-        
-      
     
     
       
@@ -691,7 +707,7 @@
             
   
   <span class="md-ellipsis">
-    my life
+    通识
   </span>
   
 
@@ -700,6 +716,80 @@
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            通识
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E9%80%9A%E8%AF%86/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    军事理论
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    my life
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             my life
           </label>
@@ -843,8 +933,9 @@
                   
 
 
-<h1 id="1">1.结构类型<a class="headerlink" href="#1" title="Permanent link">&para;</a></h1>
+<h1 id="1"><strong>1.结构类型</strong><a class="headerlink" href="#1" title="Permanent link">&para;</a></h1>
 <h2 id="11">1.1 枚举<a class="headerlink" href="#11" title="Permanent link">&para;</a></h2>
+<p>不太常用   </p>
 <h2 id="12">1.2 结构<a class="headerlink" href="#12" title="Permanent link">&para;</a></h2>
 <div class="language-text highlight"><span class="filename">Text Only</span><pre><span></span><code><span class="linenos" data-linenos="1 "></span>struct point{
 <span class="linenos" data-linenos="2 "></span>    int x;
@@ -856,7 +947,7 @@
 <img alt="alt text" src="../picture/%E5%A3%B0%E6%98%8E%E5%BD%A2%E5%BC%8F.png" />   </p>
 <h2 id="13">1.3 联合<a class="headerlink" href="#13" title="Permanent link">&para;</a></h2>
 <p>成员共用一个内存空间   </p>
-<h1 id="2">2.编译预处理<a class="headerlink" href="#2" title="Permanent link">&para;</a></h1>
+<h1 id="2"><strong>2.编译预处理</strong><a class="headerlink" href="#2" title="Permanent link">&para;</a></h1>
 <p>Windows标准库的头文件位置：Dev c++-&gt;MinGW文件夹-&gt;include <br />
 标准头文件结构的条件编译(防止重复引入头文件)   </p>
 <blockquote>
@@ -864,12 +955,12 @@
 #define <br />
 #endif   </p>
 </blockquote>
-<h1 id="3">3.项目<a class="headerlink" href="#3" title="Permanent link">&para;</a></h1>
+<h1 id="3"><strong>3.项目</strong><a class="headerlink" href="#3" title="Permanent link">&para;</a></h1>
 <p>一个源代码文件太长，适合分成几个文件，but 两个独立的源代码文件不能编译形成可执行的文件 <br />
 项目&rarr;包含多个源代码文件 （dev c++编译：把一个项目中所有的代码文件都编译后，链接起来 <br />
 而在 VS（Visual Studio）,编译按钮是对单个源代码文件编译，构建按钮是对整个项目做链接 <br />
 一个.c是一个编译单元    </p>
-<h1 id="4">4.基本数据类型<a class="headerlink" href="#4" title="Permanent link">&para;</a></h1>
+<h1 id="4"><strong>4.基本数据类型</strong><a class="headerlink" href="#4" title="Permanent link">&para;</a></h1>
 <h2 id="41">4.1 原码、补码、反码<a class="headerlink" href="#41" title="Permanent link">&para;</a></h2>
 <p>正数：符号位为0，原码补码反码均相同  </p>
 <p>原码：符号位为1，其余各位表示绝对值<br />
@@ -907,13 +998,45 @@
 </code></pre></div>
 <p>% 是输入输出函数约定的格式控制字符 <br />
 其余时候直接用%即可，不需要转义    </p>
-<h1 id="5">5.输入输出规范<a class="headerlink" href="#5" title="Permanent link">&para;</a></h1>
+<h1 id="5"><strong>5.输入输出规范</strong><a class="headerlink" href="#5" title="Permanent link">&para;</a></h1>
 <h2 id="51">5.1 格式控制符<a class="headerlink" href="#51" title="Permanent link">&para;</a></h2>
 <p>%d 十进制<br />
 （以下三个只能输出正整数） <br />
 %u 十进制无符号 <br />
 %o 八进制<br />
-%x 十六进制   </p>
+%x 十六进制 <br />
+除了%c，scanf会跳过数据前面的空白字符   </p>
+<h2 id="52">5.2 标准输入流<a class="headerlink" href="#52" title="Permanent link">&para;</a></h2>
+<p>标准输入流（stdin） — 为输入库函数（scanf 等）提供字符流。  <br />
+stdin = standard input <br />
+stdin 从键盘缓冲区获取字符序列    </p>
+<p>用户通过键盘键入字符，字符存入键盘缓冲区  <br />
+用户按下回车键 (return) 后，产生一个换行字符 \n，存入缓冲区  <br />
+缓冲区收到 \n 后，将存储的字符序列（包括 \n）转移到 stdin 中  <br />
+scanf、getchar 等函数从 stdin 读取字符和数据    </p>
+<p>%n获取目前为止从stdin中消耗的字符数   </p>
+<h2 id="53">5.3 数据类型转换<a class="headerlink" href="#53" title="Permanent link">&para;</a></h2>
+<p>转换的都是数据值的类型，而不是变量类型 <br />
+强制类型转换：（类型名）表达式   单目运算  <br />
+自动类型转换：   </p>
+<ul>
+<li>赋值：右边转换为左边  </li>
+<li>函数：参数调用时，将实参转换为形参后赋值给形参   </li>
+</ul>
+<p>有符号整型和无符号整型混合运算时，有符号型要转换成无符号型，运算的结果是无符号的。 <br />
+<div class="language-C highlight"><span class="filename">C</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="o">=</span><span class="mi">-10</span><span class="p">;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><a href="#__codelineno-0-2"><span class="linenos" data-linenos="2 "></span></a><span class="kt">unsigned</span><span class="w"> </span><span class="n">b</span><span class="o">=</span><span class="mi">5</span><span class="p">;</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><a href="#__codelineno-0-3"><span class="linenos" data-linenos="3 "></span></a><span class="p">(</span><span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">)</span><span class="o">==</span><span class="mi">1</span><span class="p">;</span>
+</code></pre></div></p>
+<h2 id="54">5.4 算数表达式<a class="headerlink" href="#54" title="Permanent link">&para;</a></h2>
+<p><div class="language-C highlight"><span class="filename">C</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><a href="#__codelineno-1-1"><span class="linenos" data-linenos="1 "></span></a><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a><a href="#__codelineno-1-2"><span class="linenos" data-linenos="2 "></span></a><span class="n">i</span><span class="o">++=</span><span class="mi">1</span><span class="p">;</span><span class="n">i</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a><a href="#__codelineno-1-3"><span class="linenos" data-linenos="3 "></span></a><span class="o">++</span><span class="n">i</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span><span class="n">i</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span>
+</code></pre></div>
+算术运算&gt;关系运算&gt;逻辑运算&gt;赋值运算 <br />
+<div class="language-C highlight"><span class="filename">C</span><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><a href="#__codelineno-2-1"><span class="linenos" data-linenos="1 "></span></a><span class="n">x</span><span class="o">=</span><span class="n">y</span><span class="o">+=</span><span class="n">z</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a><a href="#__codelineno-2-2"><span class="linenos" data-linenos="2 "></span></a><span class="o">---&gt;</span><span class="n">x</span><span class="o">=</span><span class="p">(</span><span class="n">y</span><span class="o">+=</span><span class="p">(</span><span class="n">z</span><span class="o">=</span><span class="mi">2</span><span class="p">));</span><span class="w"> </span>
+</code></pre></div></p>
 
 
 
